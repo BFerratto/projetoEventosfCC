@@ -39,7 +39,7 @@ body{
 
 h1{
   margin: 0 0 20px 0;
-  color:#2c5b53;
+  color:white;
   font-size: 24px;
   font-family:'Segoe UI',Arial,sans-serif;
   font-weight:bolder;
@@ -51,9 +51,16 @@ h2{
   font-family:'Segoe UI',Arial,sans-serif;
   font-weight: bold;;
 }
+section{
+  padding: 15px 0 15px 0;
+}
+section > *{
+  padding-top: 5px;
+}
+
 .main{
   padding: 35px 40px 30px 40px;
-  color: #9ee5d9;
+  color: white;
   font-family:'Segoe UI',Arial,sans-serif;
   font-size: 16px;
   line-height: 18px;
@@ -71,7 +78,7 @@ h2{
 }
 
 #home-image img{
-  width:700px;
+
   height:218.75px;
   margin-top: 20px;
 }
